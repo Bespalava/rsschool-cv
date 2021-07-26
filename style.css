@@ -27,6 +27,7 @@ article {
 
 .img {
   border: 1px solid #13141424;
+  border-radius: 10%;
 }
 .title {
   padding: 10px;
@@ -61,4 +62,17 @@ ul {
 }
 .section_info {
   padding: 10px;
+}
+
+.footer {
+  width: 100%;
+  bottom: 55px;
+  left: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.rsschool-logo {
+  height: 25px;
+  background-color: none;
 }
