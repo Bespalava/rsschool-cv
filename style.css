@@ -1,38 +1,39 @@
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .main {
-  margin: auto;
+  position: relative;
+  padding: 10px;
 }
 html {
   background-color: rgb(89 89 88 / 15%);
   /*  font-family: "Montserrat", sans-serif;
   font-style: normal;*/
 }
+
 .container {
-  margin: 20px auto;
-  padding: 10px;
+  position: relative;
+  width: 100%;
   max-width: 960px;
-  border: 2px solid #13141424;
+  min-height: 100px;
   background-color: white;
-}
-aside {
-  order: 1;
-  width: 75%;
-}
-article {
-  order: 2;
-  width: 20%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 20px auto;
 }
 
 .img {
   border: 1px solid #13141424;
   border-radius: 10%;
+  max-height: 240px;
+  max-width: 300px;
 }
 .title {
   padding: 10px;
   letter-spacing: 1px;
   text-align: center;
+  color: #3744b6;
 }
 .line {
   display: flex;
@@ -73,6 +74,25 @@ ul {
   align-items: center;
 }
 .rsschool-logo {
-  height: 25px;
-  background-color: none;
+  height: 30px;
+}
+
+.person-info {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.person_contact {
+  text-align: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-md-3 {
+  color: #2e98df;
 }
