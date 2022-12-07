@@ -1,2 +1,1 @@
-# rsschool-cv
-RSSchool-cv
+https://Bespalava.github.io/rsschool-cv/cv
