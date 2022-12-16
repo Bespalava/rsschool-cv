@@ -77,7 +77,22 @@
       </section>
     </aside>
     <main>
-      <article class="article">
+      <header>
+        <button class="burger">
+          <span class="burger__line"></span>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#welcome">About</a></li>
+            <li class="nav__item"><a href="#skills">Skills</a></li>
+            <li class="nav__item"><a href="#experience">Experience</a></li>
+            <li class="nav__item"><a href="#respons">Work</a></li>
+            <li class="nav__item"><a href="#grade">Education</a></li>
+            <li class="nav__item"><a href="#code">Code</a></li>
+          </ul>
+        </nav> 
+      </header>
+      <article class="article" id="welcome">
         <h3 class="article__title">
           <svg class="article__icon">
             <use xlink:href="#user" />
@@ -92,7 +107,7 @@
             I am looking for opportunities for a full-time job in web development.</li>
         </ul>        
       </article>
-      <article class="article">
+      <article class="article" id="skills">
         <h3 class="article__title">
           <svg class="article__icon">
             <use xlink:href="#project" />
@@ -109,7 +124,7 @@
           <li>Version Control Systems: Github, SVN</li>
         </ul>
       </article>
-      <article class="article">
+      <article class="article" id="experience">
         <h3 class="article__title">
           <svg class="article__icon">
             <use xlink:href="#work" />
@@ -139,7 +154,7 @@
           </li>
         </ul>
       </article>
-      <article class="article">
+      <article class="article" id="respons">
         <h3 class="article__title">
           <svg class="article__icon">
             <use xlink:href="#tools" />
@@ -154,7 +169,7 @@
           <li>Work with the configuration repository. Basic acquaintance with extension technology 1с</li>
         </ul>
       </article>
-      <article class="article">
+      <article class="article" id="grade">
         <h3 class="article__title">
           <svg class="article__icon">
             <use xlink:href="#education" />
@@ -178,7 +193,7 @@
           </li>
         </ul>
       </article>
-      <article class="article">
+      <article class="article" id="code">
       <h3 class="article__title">
         <svg class="article__icon">
           <use xlink:href="#tools" />
@@ -194,11 +209,10 @@
       return `${('0'+String(hour)).slice(-2)}:${('0'+String(min)).slice(-2)}`;
     }
       </code></pre>
-    </article>
+      </article>
       <footer class="footer">
         <div class="footer-container">
           <ul class="footer-list">
-            <li><a href="https://github.com/Bespalava" target="_blank"><i class="fab fa-github-square"></i></a></li>
             <li><a href="https://github.com/Bespalava" target="_blank"><img src="./img/github-3.svg" alt="footer__logo" style="width:20px"></a></li>
             <li><time>2022</time></li>
             <li><a href="https://rs.school/js/" target="_blank"><img src="./img/logo.svg" alt="footer__logo" style="width:50px" ></a></li>
@@ -206,7 +220,6 @@
         </div>
       </footer>
     </main>
-
   </div>
   <svg style="display: none">
     <symbol id="pin" viewbox="0 0 512 512">
@@ -338,5 +351,4 @@
     </symbol>
   </svg>
 </body>
-
 </html>
