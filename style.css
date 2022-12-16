@@ -33,6 +33,7 @@
   margin-top: 30px;
   padding-bottom: 10px;
   background-color: #a4b8ce;
+  height: 683px;
 }
 
 .contacts__title {
@@ -162,7 +163,7 @@
 }
 
 .code{
-  background-color: #E4E3E1;   
+  background-color: #f9f8f7;   
 }
 
 footer {
@@ -239,6 +240,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
 }
 
 @media (max-width: 480px) {
