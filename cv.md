@@ -1,5 +1,5 @@
 ## Yuliya Bespalava
-Phone:  +375 25 5021894    
+Phone:  +375 25 1111111    
 Email: ybespalava@gmail.com\
 Skype: ybespalava_1\
 LinkedIn: [julia-bespalava](https://www.linkedin.com/in/julia-bespalava)\
